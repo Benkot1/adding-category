@@ -5,6 +5,11 @@ import 'package:storeapp/models/category_manager.dart';
 import 'package:storeapp/models/user_manager.dart';
 import 'package:storeapp/screens/category/admin_category_list_tile.dart';
 
+// in your base Screen under admin enabled, add another screen 
+// and name it with this screen
+// in your CustomDrawer, add this line to adminEnabled
+DrawerTile(iconData: Icons.category,title: 'Category',page: 6,),
+////////////////
 
 class AdminCategoryScreen extends StatelessWidget {
   @override
